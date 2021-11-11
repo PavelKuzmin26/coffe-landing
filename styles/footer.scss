@@ -1,0 +1,38 @@
+.footer {
+  padding: 2rem 7%;
+  background: var(--black);
+  text-align: center;
+  .share {
+    padding: 1rem 0;
+    a {
+      height: 5rem;
+      width: 5rem;
+      line-height: 5rem;
+      font-size: 2rem;
+      color: #fff;
+      border: var(--border);
+      border-radius: 50%;
+      transition: 0.4s ease;
+      &:hover {
+        background-color: var(--main-color);
+        transform: rotate(360deg);
+      }
+    }
+  }
+  .links {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 2rem 0;
+    gap: 1rem;
+    a {
+      padding: 0.7rem 2rem;
+      color: #fff;
+      border: var(--border);
+      font-size: 2rem;
+      &:hover {
+        color: var(--main-color);
+      }
+    }
+  }
+}

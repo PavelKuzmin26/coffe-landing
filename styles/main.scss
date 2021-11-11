@@ -1,0 +1,24 @@
+//fonts
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700;900&family=Open+Sans:wght@300;400;700&family=Poppins:wght@400;500;600;700&family=Roboto:wght@300;500;700;900&display=swap");
+
+//roots
+:root {
+  --main-color: #d3ad7f;
+  --black: #13131a;
+  --bg: #010103;
+  --border: 0.1rem solid rgba(255, 255, 255, 0.3);
+}
+
+@import "layout";
+@import "header";
+@import "search";
+@import "cart";
+@import "media";
+@import "home";
+@import "about";
+@import "menu";
+@import "products";
+@import "review";
+@import "contact";
+@import "blogs";
+@import "footer";

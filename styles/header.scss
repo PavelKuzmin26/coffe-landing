@@ -1,0 +1,38 @@
+.header {
+  background: var(--bg);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.5rem 7%;
+  border-bottom: var(--border);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  .logo img {
+    height: 6rem;
+  }
+  .navbar {
+    a {
+      margin: 0 1rem;
+      font-size: 1.6rem;
+      color: #fff;
+      &:hover {
+        outline-color: var(--main-color);
+        border-bottom: 0.1rem solid var(--main-color);
+      }
+    }
+  }
+  .icons {
+    div {
+      color: #fff;
+      cursor: pointer;
+      font-size: 2.5rem;
+      margin-left: 2rem;
+      &:hover {
+        color: var(--main-color);
+      }
+    }
+  }
+}
